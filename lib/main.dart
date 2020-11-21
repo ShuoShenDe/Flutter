@@ -26,10 +26,44 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: mytest()
+      //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
+
+class mytest extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('My first AppBar'),
+        centerTitle: true,
+        backgroundColor: Colors.orange[600],
+      ),
+      body: Center(
+        child: Image.asset('assets/mybackground.jpg'),
+
+        // child: Text('Hello~everyone, welcome learn to flutter',
+        //   style: TextStyle(
+        //       fontSize: 20.0,
+        //       fontWeight: FontWeight.w200,
+        //       letterSpacing: 1.0,
+        //       color: Colors.black87,
+        //       fontFamily: 'Nerko'
+        //   ),
+        // ),
+
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        child: Text('click me'),
+        backgroundColor: Colors.orange[600],
+      ),
+    );
+  }
+}
+
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
