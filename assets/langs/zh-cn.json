@@ -1,0 +1,38 @@
+{
+  "title": "你好",
+  "msg": "你好 {} 在这个 {} 世界 ",
+  "msg_named": "{} 使用 {lang} 语言",
+  "clickMe": "点我",
+  "profile": {
+    "reset_password": {
+      "label": "重设密码",
+      "username": "用户名",
+      "password": "密码"
+    }
+  },
+  "clicked": {
+    "zero": "你点击了 {} 次!",
+    "one": "你点击了 {} 次!",
+    "two": "你点击了 {} 次!",
+    "few": "你点击了 {} 次!",
+    "many": "你点击了 {} 次!",
+    "other": "你点击了 {} 次!"
+  },
+  "amount": {
+    "zero": "您的总价 : {} ",
+    "one": "您的总价 : {} ",
+    "two": "您的总价 : {} ",
+    "few": "您的总价 : {} ",
+    "many": "您的总价 : {} ",
+    "other": "您的总价 : {} "
+  },
+  "gender": {
+    "male": "你好男人 ;) ",
+    "female": "你好女孩 :)",
+    "with_arg": {
+      "male": "你好男生 ;) {}",
+      "female": "你好女士 :) {}"
+    }
+  },
+  "reset_locale": "重设语言"
+}
